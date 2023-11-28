@@ -1,7 +1,16 @@
+import SerivceCard from "../componets/SerivceCard";
+
+
 
 const Service = () => {
   return (
-    <div>service</div>
+    <section className="max-container flex justify-center flex-wrap gap-9" >
+      {/* {services.map((items)=>{
+        <h1>hello1</h1>
+
+      })} */}
+    </section>
+    
   )
 }
 

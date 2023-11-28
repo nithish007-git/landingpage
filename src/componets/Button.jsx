@@ -5,11 +5,11 @@ const Button1 = ({label ,iconRel}) => {
     <button className='flex justify-start item-center px-7 py-3.5 border font-montserrat text-lg leading:none
     text-white bg-coral-red rounded-full'>
         {label}
-        <img
+        {iconRel&& <img
         src={iconRel}
         alt="arrow right"
         className='rounded-full w-5 h-5 relative left-2'
-        ></img>
+        ></img>}
 
     </button>
   
